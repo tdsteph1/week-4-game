@@ -46,14 +46,14 @@ $("#randomNum").text(targetNumber);
 		//NOTE: assign 4 different src's of 4 different crystal images.
 		if(i === 0)
 		{
-			imageCrystal.attr("src", "http://ua.bootcampcontent.com/UA-Coding-Bootcamp/07-2017-Class-Repository-FSF/raw/e9f7d21f0df7f4260bb7ffa71ee478fd67cceb09/04-jquery/02-Homework/Instructions/Images/blue.png");
+			imageCrystal.attr("src", "C:/Users/Terry/Desktop/UA CodingBootcamp/HW_4/week-4-game/assets/images/blue.png")//"http://ua.bootcampcontent.com/UA-Coding-Bootcamp/07-2017-Class-Repository-FSF/raw/e9f7d21f0df7f4260bb7ffa71ee478fd67cceb09/04-jquery/02-Homework/Instructions/Images/blue.png");
 			imageCrystal.attr("data-crystalvalue1", numberOptions[i]);			//NOTE: Reason for using 4 attributes so we can store the (this) object of a particular imaged clicked and have
 			//imageCrystal.addClass("crystal-image");							//data-crystal1 generate another random value for (data-crystal1) each time win(reset) or lose(reset)
 
 		}
 		else if(i === 1)
 		{
-			imageCrystal.attr("src", "http://ua.bootcampcontent.com/UA-Coding-Bootcamp/07-2017-Class-Repository-FSF/raw/e9f7d21f0df7f4260bb7ffa71ee478fd67cceb09/04-jquery/02-Homework/Instructions/Images/green.png");
+			imageCrystal.attr("src", "C:/Users/Terry/Desktop/UA CodingBootcamp/HW_4/week-4-game/assets/images/green.png");
 			imageCrystal.attr("data-crystalvalue2", numberOptions[i]);			//NOTE: Reason for using 4 attributes so we can store the (this) object of a particular imaged clicked and have
 			//imageCrystal.addClass("crystal-image");							//data-crystal1 generate another random value for (data-crystal1) each time win(reset) or lose(reset)
 			
@@ -61,7 +61,7 @@ $("#randomNum").text(targetNumber);
 		}
 		else if(i === 2)
 		{
-			imageCrystal.attr("src", "http://ua.bootcampcontent.com/UA-Coding-Bootcamp/07-2017-Class-Repository-FSF/raw/e9f7d21f0df7f4260bb7ffa71ee478fd67cceb09/04-jquery/02-Homework/Instructions/Images/red.png");
+			imageCrystal.attr("src", "C:/Users/Terry/Desktop/UA CodingBootcamp/HW_4/week-4-game/assets/images/red.png");
 			imageCrystal.attr("data-crystalvalue3", numberOptions[i]);			//NOTE: Reason for using 4 attributes so we can store the (this) object of a particular imaged clicked and have
 			//imageCrystal.addClass("crystal-image");							//data-crystal1 generate another random value for (data-crystal1) each time win(reset) or lose(reset)
 										
@@ -69,7 +69,7 @@ $("#randomNum").text(targetNumber);
 		}
 		else if(i === 3)
 		{
-			imageCrystal.attr("src", "http://ua.bootcampcontent.com/UA-Coding-Bootcamp/07-2017-Class-Repository-FSF/raw/e9f7d21f0df7f4260bb7ffa71ee478fd67cceb09/04-jquery/02-Homework/Instructions/Images/yellow.png");
+			imageCrystal.attr("src", "C:/Users/Terry/Desktop/UA CodingBootcamp/HW_4/week-4-game/assets/images/yellow.png");
 			imageCrystal.attr("data-crystalvalue4", numberOptions[i]);			//NOTE: Reason for using 4 attributes so we can store the (this) object of a particular imaged clicked and have
 			//imageCrystal.addClass("crystal-image");							//data-crystal1 generate another random value for (data-crystal1) each time win(reset) or lose(reset)
 			
