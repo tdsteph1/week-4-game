@@ -35,8 +35,8 @@ The random number shown at the start of the game should be between 19 - 120.
 Each crystal should have a random hidden value between 1 - 12.
 
 ## Crystal Game
-1[img1](https://github.com/tdsteph1/week-4-game/blob/master/assets/images/img1.png)
+![img1](https://github.com/tdsteph1/week-4-game/blob/master/assets/images/img1.png)
 
 ## Winning Increment
-1[img2](https://github.com/tdsteph1/week-4-game/blob/master/assets/images/img2.png)
+![img2](https://github.com/tdsteph1/week-4-game/blob/master/assets/images/img2.png)
 As you can see in this picture the user has 4 crystals where each image stores a Random value inside a data-attribute using jquery. The user must click on each crystal wisely and remember the value of each crystal image in order to reach the value 24. If the user goes over the given value then the ***Total/lose*** will increment to one but if the user is able to render the ***Total Score*** equivalent to ***Random Number*** then ***Total/win*** will increment to one indicating that the user has won. Lastly ***Random Nudmber*** uses random number generator defined in the math class to generate a new random number for the user to try to reach. ***win*** and ***loses*** reset.
