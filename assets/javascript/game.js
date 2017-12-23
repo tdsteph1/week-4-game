@@ -112,7 +112,7 @@ $(".crystal-image").on("click", function()								//NOTE: Each "data-crystalvalu
 			
 		var crystalValue = ($(this).attr("data-crystalvalue1"));		//stores attribte(data-crystalvalue) with relation to image that is clicked
 		crystalValue = parseInt(crystalValue);							//converts it from string to int
-
+		
 		param1 = $(this);
 
 
@@ -278,13 +278,6 @@ function reset(cryst1, cryst2, cryst3, cryst4)
 		cryst4.attr("data-crystalvalue4", numberOptions[3]);
 	}
 	
-	
-	
-	
-
-
-
-
 	
 
 	

@@ -13,7 +13,7 @@ body
 
 .jumbo2
 {
-	 background: rgb(60, 60, 60);							/* NOTE: setting opacity to 0.5 will cause the see through effect but, the children <div>/jumbotrons will be affected as well so using rgb fixes that. */
+	background: rgb(60, 60, 60);							/* NOTE: setting opacity to 0.5 will cause the see through effect but, the children <div>/jumbotrons will be affected as well so using rgb fixes that. */
     background: rgba(60, 60, 60, 0.4);
 
 }
